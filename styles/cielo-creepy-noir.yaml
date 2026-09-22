@@ -1,0 +1,39 @@
+art_direction: CIELO-CREEPY-NOIR
+category: cinematic
+custom: true
+derived_from: [flat-motion-graphics, clean-professional]
+best_for: "Cielo creepy corporate trailer: liminal fluorescent horror, analog VHS decay"
+
+visual_language:
+  color_palette:
+    primary: ["#E8C547", "#F5F0DC"]
+    accent: ["#C1121F", "#7A0C14"]
+    background: "#0A0A0C"
+    text: "#F5F0DC"
+    muted: "#5C5C66"
+  composition: symmetric one-point perspective, centered hero objects, oppressive negative space
+  texture: CRT scanlines + VHS tracking shimmer + film grain + chromatic split on glitch beats
+
+typography:
+  headings: {font: "monospace", weight: 700, tracking: "0.35em"}
+  body: {font: "monospace", weight: 400, line_height: 1.5}
+  title_card: {font: "monospace", weight: 700, size: 44, color: "#F5F0DC", red_card_color: "#C1121F"}
+
+motion:
+  transitions: [cut, fade-black]
+  pacing_rules: {min_scene_hold_seconds: 10, max_scene_hold_seconds: 10, transition_duration_seconds: 0.5}
+  camera: slow programmatic push-in per scene; breathing pulse on reveal objects
+
+audio:
+  voice_style: "deadpan corporate, slow, flat affect decaying into dread"
+  music_mood: "D minor dark drone 60 BPM, sub pulse, 120Hz fluorescent hum, riser into reveal, dropout stingers"
+  music_volume: 0.22
+  sfx_style: "VHS dropouts, fluorescent buzz swells, low impact hits on reveals, tape-stop before tag"
+  ducking_threshold_db: -18
+
+quality_rules:
+  - "Letterbox 2.35:1 baked in"
+  - "Titles never cover hero objects; bottom-center safe zone"
+  - "Red (#C1121F) appears ONLY in sc4/sc5 reveal beats"
+  - "Every scene has grain + scanlines; glitch bursts only at beat boundaries"
+  - "Final mix near -14 LUFS, true peak below -1.5 dBTP"
