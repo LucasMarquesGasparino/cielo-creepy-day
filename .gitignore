@@ -1,4 +1,7 @@
 assets/frames/*.mp4
+assets/frames2/*.mp4
 assets/audio/*.wav
 assets/audio/*.mp3
+assets/audio2/*.wav
+assets/audio2/*.mp3
 output/*.mp4
