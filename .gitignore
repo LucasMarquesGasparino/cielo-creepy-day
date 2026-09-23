@@ -5,3 +5,9 @@ assets/audio/*.mp3
 assets/audio2/*.wav
 assets/audio2/*.mp3
 output/*.mp4
+output/opus_ref/
+output/qa/
+output/qa2/
+output/qa_final/
+__pycache__/
+*.pyc
